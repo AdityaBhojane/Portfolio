@@ -6,13 +6,13 @@ import { Spotlight } from "../ui/Spotlight";
 import { LensDemo } from "../ProjectPin/ProjectPin";
 import aiImage from "@/app/assets/projects/Ai.jpg"
 import ctImage from "@/app/assets/projects/ct.jpg"
-import shImage from "@/app/assets/projects/24014367_6832202.svg"
+import shImage from "@/app/assets/projects/shopping.svg"
 // import TabsDemo from "../Tabs/TabsDemo";
 
 export function SpotlightPreview() {
   return (
     <>
-      <div className="h-full w-full pt-20 max-md:pt-2 z-0 rounded-md flex md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative">
+      <div className="h-full w-full overflow-hidden pt-10 max-md:pt-2 z-0 rounded-md flex md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative">
         <Spotlight
           className="-top-40 left-0 md:left-60 md:-top-20"
           fill="white"
@@ -27,7 +27,7 @@ export function SpotlightPreview() {
             </p>
             {/* Currently exploring mobile development and Web3. */}
           </div>
-          <div className="w-[80vw] mx-auto grid gap-5 p-10 grid-cols-3 max-2xl:w-full max-xl:grid-cols-2 max-md:grid-cols-1 bg-black/[0.96]">
+          <div className="w-[80vw] mx-auto grid gap-5 p-10 grid-cols-3 max-2xl:w-full max-xl:grid-cols-2 max-md:grid-cols-1">
             {/* <TabsDemo /> */}
             <LensDemo 
             image={shImage.src}
