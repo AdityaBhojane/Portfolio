@@ -42,7 +42,7 @@ export function FloatingDockDemo() {
       icon: (
         <IconBrandLinkedin  className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://www.linkedin.com/in/aditya-bhojane-2b0412257/",
     },
 
     {
@@ -50,14 +50,14 @@ export function FloatingDockDemo() {
       icon: (
         <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://x.com/Bhojane_Adi",
     },
     {
       title: "GitHub",
       icon: (
         <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://github.com/AdityaBhojane",
     },
     {
       title: "Contact",

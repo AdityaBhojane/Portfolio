@@ -38,7 +38,7 @@ const config: Config = {
     },
     plugins: [addVariablesForColors],
   },
-  plugins: [nextui()],
+  plugins: [nextui(),require('tailwind-scrollbar')], 
 };
 export default config;
 

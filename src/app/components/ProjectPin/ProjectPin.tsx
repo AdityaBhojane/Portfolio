@@ -7,11 +7,16 @@ import { cn } from "@/app/lib/utils/utils";
 interface LensDemoProps {
     image: string; // or a more specific type if it's an imported asset
     title: string;
-    para: string;
+    para: string;      
+    link: string;
   }
 
-export function LensDemo({image, title, para}:LensDemoProps) {
+export function LensDemo({image, title, para,link}:LensDemoProps) {
   const [hovering, setHovering] = useState(false);
+
+  const handleClick = () => {
+    window.open(link, "_blank", "noopener,noreferrer");
+  };
 
   return (
     <div>
@@ -33,7 +38,8 @@ export function LensDemo({image, title, para}:LensDemoProps) {
             animate={{
               filter: hovering ? "blur(2px)" : "blur(0px)",
             }}
-            className="py-4 relative z-20"
+            onClick={handleClick}
+            className="py-6 relative z-20 cursor-pointer "
           >
             <h2 className="text-white text-2xl text-left font-bold">
               {title}

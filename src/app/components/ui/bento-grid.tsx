@@ -1,4 +1,5 @@
 import { cn } from "@/app/lib/utils/utils";
+import Image from "next/image";
 
 export const BentoGrid = ({
   className,
@@ -10,7 +11,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid md:auto-rows-[18rem] grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto ",
+        "grid md:auto-rows-[18rem] grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto",
         className
       )}
     >
@@ -23,15 +24,21 @@ export const BentoGridItem = ({
   className,
   title,
   description,
-  header,
-  icon,
+  link,
+  image // Image should be of type string
 }: {
   className?: string;
   title?: string | React.ReactNode;
   description?: string | React.ReactNode;
-  header?: React.ReactNode;
-  icon?: React.ReactNode;
+  link?: string;
+  image?: string; // Keep this as string
 }) => {
+  const handleClick = () => {
+    if (link) {
+      window.open(link, "_blank", "noopener,noreferrer");
+    }
+  };
+
   return (
     <div
       className={cn(
@@ -39,10 +46,18 @@ export const BentoGridItem = ({
         className
       )}
     >
-      {header}
-      <div className="group-hover/bento:translate-x-2 transition duration-200">
-        {icon}
-        <div className="font-sans text-xl font-bold text-neutral-600 dark:text-neutral-200 mb-2 mt-2">
+      <div className="flex flex-1 w-full h-full min-h-[8rem] max-h-[8rem] overflow-hidden rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100">
+        {image? <Image
+          src={image}
+          alt="project images"
+          className="w-full h-full object-cover border border-[#696969] rounded-xl"
+          layout="responsive"
+          width={500} // Use appropriate width
+          height={300} // Use appropriate height
+        />: <></>}
+      </div>
+      <div onClick={handleClick} className="group-hover/bento:translate-x-2 transition duration-200">
+        <div className="font-sans text-lg font-bold leading-5 text-neutral-600 dark:text-neutral-200 mb-2 mt-2">
           {title}
         </div>
         <div className="font-sans font-normal text-neutral-600 text-xs dark:text-neutral-300">

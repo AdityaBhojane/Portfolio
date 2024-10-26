@@ -10,6 +10,8 @@ import shImage from "@/app/assets/projects/shopping.svg"
 // import TabsDemo from "../Tabs/TabsDemo";
 
 export function SpotlightPreview() {
+
+
   return (
     <>
       <div className="h-full w-full overflow-hidden pt-10 max-md:pt-2 z-0 rounded-md flex md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative">
@@ -30,15 +32,18 @@ export function SpotlightPreview() {
           <div className="w-[80vw] mx-auto grid gap-5 p-10 grid-cols-3 max-2xl:w-full max-xl:grid-cols-2 max-md:grid-cols-1">
             {/* <TabsDemo /> */}
             <LensDemo 
+            link="https://github.com/AdityaBhojane/EveryHuman-au-Frontend"
             image={shImage.src}
             title={"End to End Shopping Frontend with Admin Panel"} 
             para={"Developed a shopping website with a complete end-to-end checkout process and an admin panel for managing orders and products"}
             />
             <LensDemo 
+            link="https://github.com/AdityaBhojane/Ai-Chat-App"
             image={aiImage.src} 
             title={"Ai chatting app"} 
             para={"Built a mobile-friendly AI chat interface with loading skeletons and chat history storage for revisiting past conversations"}/>
             <LensDemo 
+            link="https://github.com/AdityaBhojane/Crypto-Tracker-SCN"
             image={ctImage.src}
             title={"Crypto-Tracker"} 
             para={"Built a crypto tracker with shadcn and the CoinGecko API, featuring pagination and filters for easy navigation and sorting of crypto data"}
