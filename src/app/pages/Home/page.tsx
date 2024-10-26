@@ -1,7 +1,10 @@
-import React from 'react'
+import { SpotlightPreview } from "@/app/components/mainPage/mainpage";
 
-export default function home() {
+
+export function MainPage() {
   return (
-    <div>home</div>
+    <>
+      <SpotlightPreview />
+    </>
   )
 }

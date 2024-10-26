@@ -62,16 +62,13 @@ export function FloatingDockDemo() {
     {
       title: "Contact",
       icon: (
-        <IconUserCircle
-          width={30}
-          height={30}
-        />
+        <IconUserCircle className="h-full w-full text-neutral-500 dark:text-neutral-300"/>
       ),
       href: "/pages/Contact",
     },
   ];
   return (
-    <div className="flex items-center justify-center h-[10rem] w-full absolute bottom-5 left-[50%] -translate-x-[50%]">
+    <div className="w-full flex items-center justify-center h-[10rem] sticky bottom-5 ">
       <FloatingDock
         items={links}
       />
