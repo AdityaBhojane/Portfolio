@@ -4,7 +4,7 @@ import React from "react";
 import profileImage from "@/app/assets/profile/p1.png"
 import { TypewriterEffectSmoothDemo } from "@/app/components/typeEffect/typeEffect";
 
-export default function Cv() {
+const  Cv: React.FC =()=> {
   return (
     <div className="h-screen rounded-md bg-neutral-900 flex justify-center relative w-full">
     <div className="flex h-fit items-center p-5">
@@ -27,3 +27,5 @@ export default function Cv() {
 </div>
   )
 }
+
+export default Cv;

@@ -1,6 +1,6 @@
-import type { NextPage } from 'next'
+// import type { NextPage } from 'next'
 
-const Project: NextPage = () =>{
+const Project : React.FC = () =>{
   return (
     <div>Projects</div>
   )

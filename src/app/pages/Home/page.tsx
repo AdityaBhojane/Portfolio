@@ -1,10 +1,12 @@
 import { SpotlightPreview } from "@/app/components/mainPage/mainpage";
 
 
-export function MainPage() {
+const MainPage: React.FC = () => {
   return (
     <>
       <SpotlightPreview />
     </>
   )
 }
+
+export default MainPage;

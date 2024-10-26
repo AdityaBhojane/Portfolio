@@ -6,7 +6,7 @@ import { Spotlight } from "../ui/Spotlight";
 import { LensDemo } from "../ProjectPin/ProjectPin";
 import aiImage from "@/app/assets/projects/Ai.jpg"
 import ctImage from "@/app/assets/projects/ct.jpg"
-import shImage from "@/app/assets/projects/shopping.svg"
+import shImage from "@/app/assets/projects/24014367_6832202.svg"
 // import TabsDemo from "../Tabs/TabsDemo";
 
 export function SpotlightPreview() {
