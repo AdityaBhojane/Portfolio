@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-require-imports */
+/* eslint-disable prefer-const */
 import type { Config } from "tailwindcss";
 import { nextui } from "@nextui-org/react";
 const {

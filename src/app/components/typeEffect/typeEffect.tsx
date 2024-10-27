@@ -16,15 +16,15 @@ export function TypewriterEffectSmoothDemo() {
     // },
     {
       text: "Software",
-      className: "text-[2rem]"
+      className: "text-[1.5rem]"
     },
     {
       text: "Developer.",
-      className: "text-[2rem] dark:text-yellow-500",
+      className: "text-[1.5rem] dark:text-yellow-500",
     },
   ];
   return (
-    <div className="flex flex-col items-center relative bottom-5">
+    <div className="flex items-center relative bottom-8 ">
       <TypewriterEffectSmooth words={words} />
     </div>
   );
