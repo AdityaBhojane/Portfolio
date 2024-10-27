@@ -19,7 +19,7 @@ export function TracingBeamDemo() {
             className="rounded-full relative bottom-5 min-w-[100px]"
           />
           <div className="px-10">
-            <h1 className="text-4xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 max-xl:mb-5 max-sm:mb-8">
+            <h1 className="text-4xl max-sm:text-2xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 max-xl:mb-5 max-sm:mb-8">
               Aditya Bhojane
             </h1>
             <h2 className="relative flex-col md:flex-row z-10 text-3xl md:text-5xl md:leading-tight max-w-5xl mx-auto text-center tracking-tight font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-white to-white flex items-center gap-2 md:gap-8">

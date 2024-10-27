@@ -18,7 +18,7 @@ export function SpotlightPreview() {
             I&apos;m a Full-stack web developer passionate about building responsive, engaging applications and creating impactful user experiences. I would like to explore new tech.
           </p>
         </div>
-        <div className="w-[80vw] h-full mx-auto grid gap-5 p-10 grid-cols-3 max-2xl:w-full max-xl:grid-cols-2 max-md:grid-cols-1">
+        <div className="w-[80vw] h-full mx-auto grid gap-5 p-10 max-sm:p-3 grid-cols-3 max-2xl:w-full max-xl:grid-cols-2 max-md:grid-cols-1">
           <LensDemo
             link="https://github.com/AdityaBhojane/EveryHuman-au-Frontend"
             image={shImage.src}

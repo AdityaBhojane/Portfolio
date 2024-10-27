@@ -16,11 +16,11 @@ export function TypewriterEffectSmoothDemo() {
     // },
     {
       text: "Software",
-      className: "text-[1.5rem]"
+      className: "text-[1.5rem] max-sm:text-[1rem]"
     },
     {
       text: "Developer.",
-      className: "text-[1.5rem] dark:text-yellow-500",
+      className: "text-[1.5rem] dark:text-yellow-500 max-sm:text-[1rem]",
     },
   ];
   return (

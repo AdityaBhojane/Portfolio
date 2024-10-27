@@ -20,7 +20,7 @@ export function LensDemo({image, title, para,link}:LensDemoProps) {
 
   return (
     <div>
-      <div className="w-full min-h-[450px] max-h-[450px] relative rounded-3xl overflow-hidden max-w-md mx-auto bg-gradient-to-r from-[#1D2235] to-[#121318] p-8 my-10">
+      <div className="w-full min-h-[450px] max-h-[450px]  max-sm:p-5 relative rounded-3xl overflow-hidden max-w-md mx-auto bg-gradient-to-r from-[#1D2235] to-[#121318] p-8 my-10">
         <Rays />
         <Beams />
         <div className="relative z-10">
@@ -41,10 +41,10 @@ export function LensDemo({image, title, para,link}:LensDemoProps) {
             onClick={handleClick}
             className="py-6 relative z-20 cursor-pointer "
           >
-            <h2 className="text-white text-2xl text-left font-bold">
+            <h2 className="text-white max-sm:text-lg text-2xl text-left font-bold">
               {title}
             </h2>
-            <p className="text-neutral-200 text-left  mt-4">
+            <p className="text-neutral-200 max-sm:text-sm text-left  mt-4">
               {para}
             </p>
           </motion.div>

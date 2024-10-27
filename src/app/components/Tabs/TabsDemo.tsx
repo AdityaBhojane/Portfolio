@@ -73,20 +73,20 @@ const Frontend = [
 export function TabsDemo() {
   const tabs = [
     {
-      title: "Frontend Projects",
-      value: "Frontend Projects",
+      title: "Frontend ",
+      value: "Frontend ",
       content: (
-        <div className="w-full h-full max-[950px]:h-[35rem] px-4 overflow-y-scroll overflow-x-hidden scrollbar-thin scrollbar-thumb-black scrollbar-track-transparent  relative rounded-2xl text-xl md:text-3xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="w-full h-full max-sm:max-h-[30rem]  max-[950px]:h-[35rem] px-4 overflow-y-scroll overflow-x-hidden scrollbar-thin scrollbar-thumb-black scrollbar-track-transparent  relative rounded-2xl text-xl md:text-3xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p className="sticky z-10  py-2 px-5 top-0 left-0 bg-gradient-to-br from-purple-600 to-violet-900">Frontend Projects</p>
           <BentoGridDemo items={Frontend} />
         </div>
       ),
     },
     {
-      title: "Full Stack Projects",
-      value: "Full Stack Projects",
+      title: "Full Stack ",
+      value: "Full Stack ",
       content: (
-        <div className="w-full h-full max-[950px]:h-[35rem] px-4 overflow-y-scroll scrollbar-thin scrollbar-thumb-black scrollbar-track-transparent overflow-x-hidden relative rounded-2xl text-xl md:text-3xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="w-full h-full max-sm:max-h-[30rem]  max-[950px]:h-[35rem] px-4 overflow-y-scroll overflow-x-hidden scrollbar-thin scrollbar-thumb-black scrollbar-track-transparent  relative rounded-2xl text-xl md:text-3xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p className="sticky py-2 px-5 top-0 left-0 bg-gradient-to-br from-purple-600 to-violet-900">Full Stack Projects</p>
         </div>
       ),
@@ -95,17 +95,17 @@ export function TabsDemo() {
       title: "Mini Projects",
       value: "Mini Projects",
       content: (
-        <div className="w-full p-4 overflow-y-scroll scrollbar-thin scrollbar-thumb-black scrollbar-track-transparent overflow-x-hidden relative h-full rounded-2xl text-xl md:text-3xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="w-full h-full max-sm:max-h-[30rem]  max-[950px]:h-[35rem] px-4 overflow-y-scroll overflow-x-hidden scrollbar-thin scrollbar-thumb-black scrollbar-track-transparent  relative rounded-2xl text-xl md:text-3xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p className="sticky py-2 px-5 top-0 left-0 bg-gradient-to-br from-purple-600 to-violet-900">Mini Projects</p>
 
         </div>
       ),
     },
     {
-      title: "Other Projects",
-      value: "Other Projects",
+      title: "Extra",
+      value: "Extra",
       content: (
-        <div className="w-full p-4 overflow-y-scroll scrollbar-thin scrollbar-thumb-black scrollbar-track-transparent overflow-x-hidden relative h-full rounded-2xl text-xl md:text-3xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="w-full h-full max-sm:max-h-[30rem]  max-[950px]:h-[35rem] px-4 overflow-y-scroll overflow-x-hidden scrollbar-thin scrollbar-thumb-black scrollbar-track-transparent  relative rounded-2xl text-xl md:text-3xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p className="sticky py-2 px-5 top-0 left-0 bg-gradient-to-br from-purple-600 to-violet-900">Other Projects</p>
 
         </div>
@@ -115,7 +115,7 @@ export function TabsDemo() {
       title: "Web 3",
       value: "Web 3",
       content: (
-        <div className="w-full p-4 overflow-y-scroll scrollbar-thin scrollbar-thumb-black scrollbar-track-transparent overflow-x-hidden relative h-full rounded-2xl text-xl md:text-3xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="w-full h-full max-sm:max-h-[30rem]  max-[950px]:h-[35rem] px-4 overflow-y-scroll overflow-x-hidden scrollbar-thin scrollbar-thumb-black scrollbar-track-transparent  relative rounded-2xl text-xl md:text-3xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p className="sticky py-2 px-5 top-0 left-0 bg-gradient-to-br from-purple-600 to-violet-900">Web 3 Projects</p>
 
         </div>
