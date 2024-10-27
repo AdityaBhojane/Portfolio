@@ -76,7 +76,7 @@ export function TabsDemo() {
       title: "Frontend Projects",
       value: "Frontend Projects",
       content: (
-        <div className="w-full h-full max-[950px]:h-[35rem] px-4 overflow-y-scroll scrollbar-thin scrollbar-thumb-black scrollbar-track-transparent overflow-x-hidden relative rounded-2xl text-xl md:text-3xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="w-full h-full max-[950px]:h-[35rem] px-4 overflow-y-scroll overflow-x-hidden scrollbar-thin scrollbar-thumb-black scrollbar-track-transparent  relative rounded-2xl text-xl md:text-3xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p className="sticky z-10  py-2 px-5 top-0 left-0 bg-gradient-to-br from-purple-600 to-violet-900">Frontend Projects</p>
           <BentoGridDemo items={Frontend} />
         </div>
@@ -86,7 +86,7 @@ export function TabsDemo() {
       title: "Full Stack Projects",
       value: "Full Stack Projects",
       content: (
-        <div className="w-full p-4  overflow-y-scroll scrollbar-thin scrollbar-thumb-black scrollbar-track-transparent overflow-x-hidden relative h-full rounded-2xl text-xl md:text-3xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="w-full h-full max-[950px]:h-[35rem] px-4 overflow-y-scroll scrollbar-thin scrollbar-thumb-black scrollbar-track-transparent overflow-x-hidden relative rounded-2xl text-xl md:text-3xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p className="sticky py-2 px-5 top-0 left-0 bg-gradient-to-br from-purple-600 to-violet-900">Full Stack Projects</p>
         </div>
       ),

@@ -9,7 +9,7 @@ import {
   IconHome,
   IconFileCv,
   IconBulb,
-  IconUserCircle
+  // IconUserCircle
 } from "@tabler/icons-react";
 
 
@@ -59,13 +59,13 @@ export function FloatingDockDemo() {
       ),
       href: "https://github.com/AdityaBhojane",
     },
-    {
-      title: "Contact",
-      icon: (
-        <IconUserCircle className="h-full w-full text-neutral-500 dark:text-neutral-300"/>
-      ),
-      href: "/pages/Contact",
-    },
+    // {
+    //   title: "Contact",
+    //   icon: (
+    //     <IconUserCircle className="h-full w-full text-neutral-500 dark:text-neutral-300"/>
+    //   ),
+    //   href: "/pages/Contact",
+    // },
   ];
   return (
     <div className="w-full flex items-center justify-center sticky bottom-10 ">

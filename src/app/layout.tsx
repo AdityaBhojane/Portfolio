@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { FloatingDockDemo } from "./components/floating dock/FloatingDock";
-import {NextUIProvider} from "@nextui-org/system";
+import { NextUIProvider } from "@nextui-org/system";
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -27,11 +27,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="">
       <body
-        className={`${geistSans.variable} ${geistMono.variable}  antialiased`}
-        >
+        className={`${geistSans.variable} ${geistMono.variable} scrollbar-thin scrollbar-thumb-[#616161] scrollbar-track-transparent  antialiased`}
+      >
         <NextUIProvider>
-        {children}
-        <FloatingDockDemo />
+          {children}
+          <FloatingDockDemo />
         </NextUIProvider>
       </body>
     </html>
