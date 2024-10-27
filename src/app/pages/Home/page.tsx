@@ -1,12 +1,11 @@
-import { SpotlightPreview } from "@/app/components/mainPage/mainpage";
+// import { SpotlightPreview } from "@/app/components/mainPage/mainpage";
+import { VortexDemo } from "@/app/components/vortexDemo/VortextDemo";
 
 
 const MainPage: React.FC = () => {
   return (
     <>
-      <div className="w-full h-full p-10 rounded-md bg-neutral-900 flex justify-center relative">
-        <SpotlightPreview />
-      </div>
+     <VortexDemo/>
     </>
   )
 }

@@ -76,7 +76,7 @@ export function TabsDemo() {
       title: "Frontend ",
       value: "Frontend ",
       content: (
-        <div className="w-full h-full max-sm:max-h-[30rem]  max-[950px]:h-[35rem] px-4 overflow-y-scroll overflow-x-hidden scrollbar-thin scrollbar-thumb-black scrollbar-track-transparent  relative rounded-2xl text-xl md:text-3xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="max-w-full h-full max-sm:max-h-[30rem]  max-[950px]:h-[35rem] px-4 overflow-y-scroll overflow-x-hidden scrollbar-thin scrollbar-thumb-black scrollbar-track-transparent  relative rounded-2xl text-xl md:text-3xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p className="sticky z-10  py-2 px-5 top-0 left-0 bg-gradient-to-br from-purple-600 to-violet-900">Frontend Projects</p>
           <BentoGridDemo items={Frontend} />
         </div>
@@ -124,7 +124,7 @@ export function TabsDemo() {
   ];
 
   return (
-    <div className="h-[20rem] md:h-[45rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start my-2">
+    <div className="h-[20rem] md:h-[45rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full items-start justify-start my-2">
       <Tabs tabs={tabs} />
     </div>
   );
